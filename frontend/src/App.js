@@ -12,11 +12,8 @@ const App = () => {
         <Brand />
         <Dmac />
         <Exploitdb />
-        <CTA />
-        <BlogSection />
       </div>
         <Footer />
-
     </div>
   )
 }

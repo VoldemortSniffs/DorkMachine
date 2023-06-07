@@ -18,7 +18,6 @@ const Navbar = () => {
           <p><a href="#brand">Docs</a></p>
           <p><a href="#dmac">DorkM3</a></p>
           <p><a href="#exploitdb">ExploitDB</a></p>
-          <p><a href="#blogs">Blogs</a></p>
         </div>
       </div>
       <div className="app__navbar-sign">

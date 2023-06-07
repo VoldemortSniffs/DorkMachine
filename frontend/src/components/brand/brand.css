@@ -14,7 +14,7 @@
 .app__brand h1{
     font-family: var(--font-family);
     font-weight: 800;
-    padding: 0 5rem;
+    padding: 0 1rem;
     font-style: normal;
     font-size: 40px;
     line-height: 0px;
@@ -23,6 +23,7 @@
 }
 .app__brand p{
     font-family: var(--font-family);
+    padding: 8px 8px;
     font-style: normal;
     font-weight: 500;
     margin-left: 4rem;
@@ -30,13 +31,15 @@
     margin-top: 0.8rem;
     color: #fff;
     text-transform: uppercase;
-   
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
 }
 
    .app__brand p:hover{
         
-        scale: 1.2;
-        font-weight: 800;
+        scale: 1.05;
+        font-weight: 600;
         transition: all 0.4s ease-in-out;
         cursor: pointer;
+        
     }

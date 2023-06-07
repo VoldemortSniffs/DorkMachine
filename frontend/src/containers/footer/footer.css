@@ -1,0 +1,105 @@
+.app__footer{
+    
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    background: var(--color-footer);
+
+}
+.app__footer:hover{
+    border-top: 1px solid whitesmoke;
+}
+
+.app__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3rem;
+}
+
+.app__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.app__footer-heading p{
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 21px;
+    color: #ffffff;
+    word-spacing: 2px;
+}
+
+.app__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 100%;
+    text-align: left;
+
+}
+
+.app__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.app__footer-links_logo {
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: center;
+}
+/*
+.app__footer-links_logo img{
+    width: 280px;
+    height: 140px;
+
+    margin-bottom: 1rem;
+} */
+.app__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;   
+}
+
+.app__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 25px;
+    line-height: 14px;
+    font-feature-settings: "liga" off;
+
+    color: #fff;
+}
+.app__footer-SocialMedia{
+    width: 100px;
+    height: 50px;
+    /* background-color: red; */
+    justify-content: center;
+    flex: 1;
+    display: flex;
+}
+.top-react-icons {
+    color: white;
+    border: 1px solid #5e5e5e;
+    padding: 0rem 1rem;
+    margin-left: 1rem;
+    
+}
+.app__footer-SocialMedia :hover{
+    
+ scale: 1.02;   
+}
+.top-react-icons:hover{
+    background-color: #f301bd;
+    background-image: linear-gradient(43deg, #f301bd 0%, #ca42c0 46%, #FFCC70 100%);
+}

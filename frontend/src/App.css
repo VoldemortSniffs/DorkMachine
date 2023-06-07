@@ -59,10 +59,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.gradient__text2 {
-  background-color: #007dff;
-  background-image: linear-gradient(62deg, #007dff 0%, #9434ff 100%);  
-}
+
 .section__padding {
     padding: 4rem 6rem;
 }
