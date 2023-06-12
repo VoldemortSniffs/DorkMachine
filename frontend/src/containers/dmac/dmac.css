@@ -156,3 +156,50 @@
     transform: translateX(0%);
   }
 }
+
+@media screen and (max-width: 700px){
+  .app__dmac{
+    display: block;
+  }
+
+  .app__dmac-content_googleicon {
+    display: none;
+  }
+  .app__dmac-section-card {
+    margin: 1rem 0em;
+    max-width: 510px;
+  }
+  .app__dmac-section-input input {
+    margin: 2rem 0em;
+  }
+  .button-30{
+    /* margin: 1rem 0rem; */
+    /* padding: 0rem 0rem; */
+    margin-left: 3rem;
+    
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  .app__dmac{
+    display: block;
+  }
+
+  .app__dmac-content_googleicon {
+    display: none;
+  }
+  .app__dmac-section-card {
+    margin: 1rem 0em;
+    max-width: 410px;
+  }
+  .app__dmac-section-input input {
+    margin: 1rem 0em;
+  }
+  .button-30{
+    /* margin: 1rem 0rem; */
+    /* padding: 0rem 0rem; */
+    margin-left: 0rem;
+  }
+}
+

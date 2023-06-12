@@ -43,3 +43,39 @@
         cursor: pointer;
         
     }
+
+    @media screen and (max-width: 700px){
+        .app__brand{
+            display: block;
+            min-height: 420px;
+        }
+
+        .app__brand h1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .app__brand p{
+            margin-top: 2rem;
+            padding-left: 5rem;
+        }
+    }
+    
+    @media screen and (max-width: 500px){
+        .app__brand{
+            display: block;
+            min-height: 420px;
+        }
+
+        .app__brand h1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .app__brand p{
+            margin-top: 2rem;
+            padding-left: 3rem;
+        }
+    }
+
+  

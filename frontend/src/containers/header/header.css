@@ -81,6 +81,9 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .app__header-image img{
+        display: none;
+    }
 }
 @media screen and (max-width: 490px) {
     .app__header h1 {
@@ -90,6 +93,9 @@
     .app__header-content p {
         font-size: 14px;
         line-height: 24px;
+    }
+    .app__header-image img{
+        display: none;
     }
 }
 
